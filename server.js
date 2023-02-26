@@ -37,7 +37,7 @@ const server = app.listen(Port , console.log("App is running at port " + Port));
 const io = require("socket.io")(server,{
     pingtimeout : 60000,
     cors : {
-        origin : "http://localhost:3000",
+        origin : "https://web-whatschat-api.onrender.com",
     }
 });
 
